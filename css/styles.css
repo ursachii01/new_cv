@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container {
+  background-color: #EDF1D6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: #9DC08B;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.bottom-container {
+  background-color: #609966;
+  height: 100px;
+  padding-top: 50px;
+}
+.pro {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 5.62rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #609966;
+  line-height: 2;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+h2 {
+  font-size: 2.5rem;
+  color: #609966;
+  font-weight: normal;
+}
+a {
+  color: #EDF1D6;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2
+}
+.python-photo {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.html-photo {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.photo-profile {
+  width: 20%;
+  height: 20%;
+}
+hr {
+    border-style: dotted none none;
+    background-color: #9DC08B;
+    width: 3%;
+    border-color: grey;
+    border-width: 5px;
+    margin: 100px auto;
+
+}
+.parag2 {
+  margin: 0 auto 50px auto;
+  width: 50%;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #9DC08B;
+  font-size: 20px;
+  background: #EDF1D6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.parag3 {
+  margin-bottom: 50px;
+}
+.copyright {
+  font-size: 0.75rem;
+}
